@@ -1,0 +1,285 @@
+/*header*/
+.fondoGri {
+	background-color: #E6E6E6;
+	}
+.listFlag li {
+	display: inline-block;
+	padding-right: ;
+}
+/*navegador*/
+a.hoverred:hover{
+	background-color: #E85F5F!important;
+}
+a.hoverred:active{
+	background-color: #E85F5F!important;
+}
+.botonCompra{
+	float: right;
+	margin:  -3% 4% 0 0;
+	background-color: black;
+	padding: 2px;
+	border: none;
+
+}
+.cuadroCompras{
+	width: 30%;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 1%;
+	float: right;
+}
+.colorCardSho{
+	background-color: black;
+	color: white;
+}
+.flotRi{
+	float: right;
+	background-color: black;
+	color: white;
+	border: none; 
+}
+.displaynone{
+	display: none;
+}
+/*slider*/
+.adaptar{
+	width: 100%;
+}
+
+/*acomodo de textos*/
+.pad0{
+	padding: 0 !important;
+}
+.pdBot5{
+	padding-bottom: 5%;
+}
+.pdBot2{
+	padding-bottom: 2%;
+}
+.pdRL{
+	padding: 1% 5%;
+}
+.padR{
+	padding-right: 2%;
+}
+.padTo5{
+	padding-top: 5%;
+}
+.padRL5{
+	padding-right: 7%;
+	padding-left: 7%;
+}
+.paddiv{
+	padding:  2%; 
+}
+.margTop10{
+	margin-top: 10%;
+}
+.margTop5{
+	margin-top: 5%;
+}
+.margBott5{
+	margin-bottom: 5%;
+}
+
+.textbold{
+	font-weight: bold;
+}
+.textGrey{
+	color: #E3E0E0;
+}
+.textWhite{
+	color: #FFFFFF;
+}
+.redLink{
+	color: red;
+}
+.fondoTextRes{
+	background-color: #FC6565;
+	width: 70%;
+}
+.textgreyTach{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+.fondoSale{
+	background-color: #353434;
+	color: white;
+	padding: 4%;
+	width: 40%;
+	text-align: center;
+}
+.fondoNew{
+	background-color: #E85F5F;
+	color: white;
+	padding: 4%;
+	width: 40%;
+	text-align: center;
+}
+/*tamaños de textos*/
+
+.smallTex{
+	font-size: 70%;
+}
+.textBig{
+	font-size: 420%;
+}
+/*imgns*/
+.fondoMarcas{
+	background-image: url("../images/client-bg.jpg"); 
+	background-size: 100%;
+	padding: 8%;
+	margin-top: 5%;
+
+}
+/**/
+.bksize{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 200px;
+	height: 250px;
+}
+.backimga1{
+	background-image: url(../images/a1.jpg);
+	
+}
+.backimgb1{
+	background-image: url(../images/b1.jpg);
+	
+}
+.backimgc1{
+	background-image: url(../images/c1.jpg);
+	
+}
+.backimgd1{
+	background-image: url(../images/d1.jpg);
+	
+}
+i {
+	background-color: white;
+	padding: 10px;
+}
+/*stars*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+/*imagenes */
+.imgSize{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	width: 100%;
+	height: 127px;
+	 background-position: center center;
+}
+.imgBk1{
+	background-image: url(../images/a1.jpg);
+	
+	
+}
+.imgBkbol{
+	background-image: url(../images/c2.jpg);
+	
+}
+.imgBkGorro{
+	background-image: url(../images/d1.jpg);
+	
+}
+.imgBkg2{
+	background-image: url(../images/g2.jpg);
+}
+
+/*footer*/
+.backGrey{
+	background-color: #CACACA;
+	padding: 2% 0;
+}
+.fondoBlaFoot{
+	background-color: #717070;
+	padding: 2% 0;
+}
+.moizq{
+	float: right;
+}
+/*contacto*/
+.fondoImg{
+	background-image: url(../images/client-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	width: 100%;
+	height: 400px;	
+	padding: 10% 0;
+	margin-top: -20px;
+}
+
+
+@media only screen and (min-width:1100px) and (max-width:1800px) {
+	.imgSize{
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-size: cover;
+		width: 100%;
+		height: 140px;
+	}
+	
+}
+
+@media only screen and (min-width:770px) and (max-width:1199px) {
+	.centradopLR{
+		padding: 0 25%;
+		
+	}
+	.bksize{
+		width: 150px;
+		height: 250px;
+		margin-bottom: -90px;
+	}
+}
+@media only screen and (min-width:500px) and (max-width:765px) {
+	.centradopLR{
+		padding: 0 35%;
+		
+	}
+	.bksize{
+		width: 133px;
+		height: 250px;
+		margin-bottom: -90px;
+	}
+	.cuadroCompras{
+		width: 60%;
+	}
+	
+	
+	
+}
+@media only screen and (min-width:250px) and (max-width:499px) {
+	
+	.textBig{
+		font-size: 320%;
+	}
+	.fondoTextRes{
+		width: 100%;
+	}
+	.cuadroCompras{
+		width: 70%;
+	}
+	.margLT5mov{
+		margin: 0 8%;
+	}
+	
+}
+
+
+
+ 
