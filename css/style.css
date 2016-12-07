@@ -1,6 +1,7 @@
 /*header*/
 .fondoGri {
 	background-color: #E6E6E6;
+	padding: 1% 2%;
 	}
 .listFlag li {
 	display: inline-block;
@@ -20,6 +21,11 @@ a.hoverred:active{
 	padding: 2px;
 	border: none;
 
+}
+
+.bg-grey {
+	width: 80%;
+	background-color: #EBEAEA;
 }
 .cuadroCompras{
 	width: 30%;
@@ -55,9 +61,9 @@ a.hoverred:active{
 .pdBot2{
 	padding-bottom: 2%;
 }
-.pdRL{
+/*.pdRL{
 	padding: 1% 5%;
-}
+}*/
 .padR{
 	padding-right: 2%;
 }
@@ -65,8 +71,8 @@ a.hoverred:active{
 	padding-top: 5%;
 }
 .padRL5{
-	padding-right: 7%;
-	padding-left: 7%;
+	padding-right: 1%;
+	padding-left: 5%;
 }
 .paddiv{
 	padding:  2%; 
@@ -79,6 +85,12 @@ a.hoverred:active{
 }
 .margBott5{
 	margin-bottom: 5%;
+}
+.margBottMn5{
+	margin-top: -15px !important;
+}
+.margR2{
+	margin-right: 2%;
 }
 
 .textbold{
@@ -111,7 +123,7 @@ a.hoverred:active{
 .fondoNew{
 	background-color: #E85F5F;
 	color: white;
-	padding: 4%;
+	padding: 5%;
 	width: 40%;
 	text-align: center;
 }
@@ -135,7 +147,7 @@ a.hoverred:active{
 .bksize{
 	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 200px;
+	width: 190px;
 	height: 250px;
 }
 .backimga1{
@@ -222,26 +234,28 @@ i {
 	padding: 10% 0;
 	margin-top: -20px;
 }
-
+.with100{
+	width: 100%;
+}
 
 @media only screen and (min-width:1100px) and (max-width:1800px) {
-	.imgSize{
+	/*.imgSize{
 		background-repeat: no-repeat;
 		background-size: 100%;
 		background-size: cover;
 		width: 100%;
 		height: 140px;
 	}
-	
+	*/
 }
 
-@media only screen and (min-width:770px) and (max-width:1199px) {
+@media only screen and (min-width:760px) and (max-width:1199px) {
 	.centradopLR{
 		padding: 0 25%;
 		
 	}
 	.bksize{
-		width: 150px;
+		width: 130px;
 		height: 250px;
 		margin-bottom: -90px;
 	}
@@ -263,7 +277,19 @@ i {
 	
 	
 }
-@media only screen and (min-width:250px) and (max-width:499px) {
+@media only screen and (min-width:450px) and (max-width:767px) {
+	
+	.pdRL{
+		padding: 0 25%;
+	}
+	.withImg{
+		width: 100%;
+	}
+	.pdRLLogo{
+		padding: 2% 35%;
+	}
+}
+@media only screen and (min-width:351px) and (max-width:499px) {
 	
 	.textBig{
 		font-size: 320%;
@@ -274,10 +300,38 @@ i {
 	.cuadroCompras{
 		width: 70%;
 	}
-	.margLT5mov{
-		margin: 0 8%;
+	.pdRLLogo{
+		padding: 2% 35%;
 	}
+	.withImg{
+		width: 100%;
+	}
+	.bksize{
+		width: 130px;
+		height: 150px;
+		
+	}
+}
+
+@media only screen and (min-width:240px) and (max-width:350px) {
 	
+	.bksize{
+		width: 110px;
+		height: 150px;
+		
+	}
+	.pdRLLogo{
+		padding: 2% 35%;
+	}
+	.fondoTextRes{
+		width: 100%;
+	}
+	.textBig{
+		font-size: 300%;
+	}
+	.withImg{
+		width: 100%;
+	}
 }
 
 
